@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.clear{
+    clear: both;
+}
+
+html, body{
+    height: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+article{
+    padding-top: 10px;
+    width: 100%;
+    height: 70%;
+    background-size: cover;
+    background-position: top;
+    background-image: url('imagens/berserk_fundo.jpg');
+}
+
+.container{
+    width: 100%;
+    background-color:rgba(54, 54, 54, 0.9);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.container a{
+    color: white;
+    text-decoration: none;
+}
+
+.bordabottom {
+    background-color: rgb(160, 160, 160);
+    height: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.bordabottom2 {
+    background-color: rgb(160, 160, 160);
+    height: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.berserk {
+    overflow: hidden;
+    width: 200px;
+    margin: 10px auto;
+    background-color: rgb(173, 173, 173);
+    border-radius: 20px;
+}
+
+.berserk h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(68, 68, 68);
+    padding: 10px 0px 0px 0px;
+}
+
+.berserk p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    padding-bottom: 20px;
+}
+
+
+.itens_lateral {
+    width: 300px;
+    float: right;
+    margin: 10px;  
+    text-align: center;
+    color: white;
+    
+}
+
+.itens_lateral p{
+    padding: 20px;
+    background-color: rgba(54, 54, 54, 0.9);
+    border-bottom: rgb(75, 75, 75) solid 1px;
+}
+
+.itens_lateral p:last-child{
+  
+    border-bottom: none;
+}
+
+
+
+.sessao1 {
+    width: 100%;
+    height: 200px;
+    background-color:rgba(54, 54, 54, 0.9);
+    
+}
+
+.texto-sessao1 {
+    height: 100%;
+    color: white;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+           
+}
+
+.texto-sessao1 h2{
+    font-weight: 300;
+    background-color: rgba(54, 54, 54, 0.9);
+}
+
+.texto-sessao1 > p{
+    
+    font-size: 15px;
+
+}
+.texto-sessao1 ul {
+    list-style-position: inside;
+ 
+}
+
+.texto-sessao1 li {
+    font-size: 15px;
+    padding-Right: 20px ;
+
+}
+
+.texto-sessao1 li:before{
+    content: '● ';
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    white-space: pre;
+    text-transform: none;  
+}
+
+.btn1-texto{
+    display: flex;
+    background-color: rgb(173, 173, 173);
+    width: 165px;
+    height: 44px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+   float: right;   
+   flex-wrap: wrap;
+}
+
+.btn1-texto p{
+    color:rgb(68, 68, 68);
+    font-weight: 600;
+}
+
+.device-sessao1{
+    float: right;
+    width: 30%;
+    height: 200px;
+    background-image: url('imagens/berserkfundo5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    
+}
+
+.device-sessao2{
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-image: url('imagens/berserkfundo4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    transform: scaleX(-1);
+    
+}
+
+
