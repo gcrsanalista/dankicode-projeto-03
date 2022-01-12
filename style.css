@@ -55,7 +55,7 @@ article{
 }
 
 .berserk {
-    overflow: hidden;
+    
     width: 200px;
     margin: 10px auto;
     background-color: rgb(173, 173, 173);
@@ -78,20 +78,44 @@ article{
     padding-bottom: 20px;
 }
 
+.botaodireita {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin: 20px;
+    margin-top: 40px;
+    background-image: url('imagens/icon3.png');
+    background-size:cover;
+    
+}
+
+.botaodireita:hover ~ .itens_lateral{
+    display: block;
+    margin: 40px;
+}
+
+.itens_lateral p:hover{
+    background-color: rgba(54, 54, 54, 1);
+}
+
 
 .itens_lateral {
+    transition: 1s;
+    
     width: 300px;
     float: right;
     margin: 10px;  
     text-align: center;
-    color: white;
-    
+    color: white;  
 }
+
 
 .itens_lateral p{
     padding: 20px;
     background-color: rgba(54, 54, 54, 0.9);
     border-bottom: rgb(75, 75, 75) solid 1px;
+    transition: 0.2s;
 }
 
 .itens_lateral p:last-child{
